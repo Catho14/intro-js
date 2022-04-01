@@ -16,8 +16,6 @@ titulo.style.color = '#0000ee';
 titulo.style.textTransform= 'uppercase';
 
 titulo.onclick = function(){
-    var mensaje2= "Le diste clic";
-    titulo.innerHTML = "Le diste clic";
-    titulo.innerHTML = mensaje2.toUpperCase()
-    mensaje2.toLowerCase()
+    titulo.innerHTML="Le diste clic";
+    titulo.style.textTransform= 'LowerCase';
 };
